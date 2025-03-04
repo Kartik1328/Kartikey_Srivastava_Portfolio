@@ -63,7 +63,7 @@ function Hero() {
                 className="mt-5 text-xl p-3 mb-8 lg:mb-0 w-[250px] h-[60px] rounded-2xl bg-gradient-to-r from-pink-600 via-purple-600 to-slate-500 flex items-center justify-center gap-2 cursor-pointer hover:scale-105"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/17oOXejkPXA-2W4ZU06wv2QmKeEZg9DRc/view?usp=drive_link",
+                    "https://drive.google.com/file/d/1OaQjhETS6DMyuw-05NyouuGglVMGH1hH/view?usp=sharing",
                     "_blank"
                   )
                 } // Opens the RESUME in a new tab.

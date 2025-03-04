@@ -112,7 +112,7 @@ function Projects() {
               {tech.techUsed.map((technology, index) => (
                 <span
                   key={index}
-                  className="lg:-ml-5 -ml-0 mr-7 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 whitespace-nowrap"
+                  className="mr-6 -ml-4 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 whitespace-nowrap"
                 >
                   {technology}
                 </span>
@@ -167,15 +167,15 @@ function Projects() {
 
             <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                    Developed a{" "}
-                    <span className="font-semibold text-neutral-400 text-lg ml-2 ">
-                      Survey Web Application{" "}
-                    </span>
-                    with a custom Form Builder using React, Spring Boot, and
-                    MySQL, enabling quick survey creation and increasing user
-                    engagement by 40%. This application was selected to bid at
-                    NSSO under the Government of India.
-                  </p>
+                Developed a{" "}
+                <span className="font-semibold text-neutral-400 text-lg ml-2 ">
+                  Survey Web Application{" "}
+                </span>
+                with a custom Form Builder using React, Spring Boot, and MySQL,
+                enabling quick survey creation and increasing user engagement by
+                40%. This application was selected to bid at NSSO under the
+                Government of India.
+              </p>
 
               {tech.techUsed.map((technology, index) => (
                 <span
@@ -193,7 +193,15 @@ function Projects() {
 
         {TECHSTACK3.map((tech, index) => (
           <div className="grid grid-cols-1 lg:grid-cols-5">
-            <div className="CARAOUSEL-1 col-span-1 lg:col-span-2 md:w-[500px] lg:w-[400px] cursor-pointer">
+            <div
+              className="CARAOUSEL-1 col-span-1 lg:col-span-2 md:w-[500px] lg:w-[400px] cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://github.com/Kartik1328/News-Application",
+                  "_blank"
+                )
+              }
+            >
               <Slider {...settings}>
                 <div className="flex justify-center">
                   <img
@@ -219,16 +227,16 @@ function Projects() {
               </Slider>
             </div>
 
-            <div className="col-span-3 sm:mt-[225px] -ml-[200px] lg:-ml-0 lg:mt-0">
+            <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                    Developed a{" "}
-                    <span className="font-semibold text-neutral-400 text-lg ml-2 ">
-                      News Application{" "}
-                    </span>
-                    using React, Bootstrap, and an open-source News API to fetch
-                    real-time global news. It includes various categories,
-                    providing a seamless experience like other news apps.
-                  </p>
+                Developed a{" "}
+                <span className="font-semibold text-neutral-400 text-lg ml-2 ">
+                  News Application{" "}
+                </span>
+                using React, Bootstrap, and an open-source News API to fetch
+                real-time global news. It includes various categories, providing
+                a seamless experience like other news apps.
+              </p>
 
               {tech.techUsed.map((technology, index) => (
                 <span
@@ -270,15 +278,15 @@ function Projects() {
               </Slider>
             </div>
 
-            <div className="col-span-3 sm:mt-[225px] -ml-[200px] lg:-ml-0 lg:mt-0">
+            <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                    Created a basic{" "}
-                    <span className="font-semibold text-neutral-400 text-lg ml-2 ">
-                      Mediclaim system{" "}
-                    </span>
-                    using HTML, CSS, and JS, where users can register for
-                    mediclaim. The system includes pages for Admin, Hospitals,
-                    and Approvers, with basic styling and dynamic interactions.
+                Created a basic{" "}
+                <span className="font-semibold text-neutral-400 text-lg ml-2 ">
+                  Mediclaim system{" "}
+                </span>
+                using HTML, CSS, and JS, where users can register for mediclaim.
+                The system includes pages for Admin, Hospitals, and Approvers,
+                with basic styling and dynamic interactions.
               </p>
 
               {tech.techUsed.map((technology, index) => (
@@ -321,8 +329,12 @@ function Projects() {
               </Slider>
             </div>
 
-            <div className="col-span-3 sm:mt-[330px] -ml-[200px] lg:-ml-0 lg:mt-0">
-              <p className="mb-4 text-neutral-400 -ml-4">
+            <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
+              <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
+                Created a basic{" "}
+                <span className="font-semibold text-neutral-400 text-lg ml-2 ">
+                  Mediclaim system{" "}
+                </span>
                 Created UI screens following Figma principles, focusing on
                 structured layouts, user flows, and intuitive design. Applied
                 these designs to enhance web development and user experience.
