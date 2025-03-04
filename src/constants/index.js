@@ -35,7 +35,17 @@ export const EXPERIENCES = [
 
 export const TECHSTACK1 = [
   {
-    techUsed: ["React JS", "Java with Spring Boot","maven","IOC", "PostgreSQL", "Postman", "Axios", "Tailwind CSS",],
+    techUsed: [
+      "React JS",
+      "Java",
+      "maven",
+      "Axios",
+      "IOC",
+      "PostgreSQL",
+      "Postman",
+      "SpringBoot",
+      "Tailwind CSS",
+    ],
   },
 ];
 

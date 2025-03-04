@@ -98,7 +98,7 @@ function Projects() {
 
             <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                Built and successfully deployed a
+                Built and successfully deployed A
                 <span className="font-semibold text-neutral-400 text-lg mx-2 ">
                   Performance Management System
                 </span>
@@ -167,7 +167,7 @@ function Projects() {
 
             <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                Developed a{" "}
+                Developed a
                 <span className="font-semibold text-neutral-400 text-lg ml-2 ">
                   Survey Web Application{" "}
                 </span>
@@ -229,7 +229,7 @@ function Projects() {
 
             <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                Developed a{" "}
+                Developed a
                 <span className="font-semibold text-neutral-400 text-lg ml-2 ">
                   News Application{" "}
                 </span>
@@ -280,7 +280,7 @@ function Projects() {
 
             <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                Created a basic{" "}
+                Created a basic
                 <span className="font-semibold text-neutral-400 text-lg ml-2 ">
                   Mediclaim system{" "}
                 </span>
@@ -331,13 +331,13 @@ function Projects() {
 
             <div className="col-span-1 lg:col-span-3 sm:mt-[225px]  md:mt-10 lg:mt-0 ">
               <p className=" mb-4 text-neutral-400 lg:-ml-4 -ml-0  mt-10 md:mt-0 lg:mt-0">
-                Created a basic{" "}
+                Designed
                 <span className="font-semibold text-neutral-400 text-lg ml-2 ">
-                  Mediclaim system{" "}
+                  UI screens{" "}
                 </span>
-                Created UI screens following Figma principles, focusing on
-                structured layouts, user flows, and intuitive design. Applied
-                these designs to enhance web development and user experience.
+                 following Figma principles, focusing on structured
+                layouts, user flows, and intuitive design. Applied these designs
+                to enhance web development and user experience.
               </p>
 
               {tech.techUsed.map((technology, index) => (

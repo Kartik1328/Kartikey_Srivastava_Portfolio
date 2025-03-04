@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div>
+    <div className="">
       <nav className=" mb-8 flex items-center justify-between py-6">
         <h1 className="text-bold text-3xl flex flex-shrink-0 items-center">
           Ks
@@ -37,6 +37,7 @@ function Navbar() {
             }
             className="hover:scale-110 transition-transform duration-300"
           />
+          
           <FaWhatsapp
             onClick={() =>
               window.open(
@@ -46,6 +47,7 @@ function Navbar() {
             }
             className="hover:scale-110 transition-transform duration-300"
           />{" "}
+          
         </div>
       </nav>
     </div>
